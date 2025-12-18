@@ -3,7 +3,7 @@ package programming_elements;
 public class ProfitLoss {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int cp=129;
 		int sp=191;
 		double profit=sp-cp;
