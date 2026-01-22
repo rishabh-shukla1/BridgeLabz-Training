@@ -33,6 +33,7 @@ BridgeLabz-Training
 |     |   +- methods
 |     |   +- extra Strings
 |     |   +- built-in-function
+|     |
 |     +--leetcode-codebase (Folder)
 |     |  
 |     +--scenario-base (Folder)
@@ -45,9 +46,26 @@ BridgeLabz-Training
 |     |  +- this_static_final_instanceOf
 |     |  +- object_modelling
 |     |  +- inheritance
-|     |  
+|     |  +- encapsulation_abstraction_polymorphism
+|     |
+|     +--leetcode-codebase (Folder)
+|     |
+|     +--scenario-based (Folder)
+|     |
++--dsa-practice (Branch)
+|     |
+|     +--gcr-codebase (Folder)
+|     |  +- linkedlist
+|     |  +- linear_and_binary_search
+|     |  +- runtime_analysis_bigO
+|     |  +- sorting_algorihms
+|     |  +- stack_queue_hashmap
+|     |
+|     +--leetcode-codebase (Folder)
+|     |
+|     +--scenario-based (Folder)
+|     |
 +--review
-|
 ```
 ## Week 1: Getting Started with Java and Its Basics
 
@@ -153,6 +171,90 @@ BridgeLabz-Training
 - Used super keyword to access parent class constructors, methods, and variables
 - Practiced multilevel and hierarchical inheritance through real-world examples
 - Improved program structure by following IS-A relationship principles
+  
+  ## Week 4:  OOP Pillars, scenario-based, story-based, and basic DSA
 
+### Day 17 :- 5-Jan-2026 (Monday) [Click here]https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/b8439eb23ff9516cdfd8c884826c5d6b53e51ad5/oops-practice/gcr-codebase/encapsulation_polymorphism)
 
+- Applied OOP principles like encapsulation, abstraction, interfaces, and polymorphism to design clean, secure, and modular code
+- Improved code flexibility and reusability by using abstract classes, interfaces, and method overriding
+- Enhanced maintainability by hiding implementation details and using dynamic method binding
+
+### Day 18 :- 6-Jan-2026 (Tuesday) [Click here: Leetcode]https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/b8439eb23ff9516cdfd8c884826c5d6b53e51ad5/oops-practice/leet-code-codebase), [Click here: Scenario](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
+- Practiced scenario-based questions focusing on real-world problem solving
+- Solved LeetCode problems to strengthen problem-solving skills
+- Enhances logical approach and code readability
+
+### Day 19 :- 8-Jan-2026 (Thursday) [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/cab_booking), [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/BankingSystem)
+
+- Practiced story-based problems to improve real-world problem understanding
+- Improves logical thinking and scenario-to-code mapping
+- Implemented and revised CRUD operations
+
+### Day 20 :- 9-Jan-2026 (Friday)
+
+- Created a new Branch dsa-practice to organize dsa-related work
+- Learned Linked List concepts, including basic operations (insertion, deletion, traversal)
+- Understanding node structure and pointers
+
+## Week 5: Scenario-based questions and DSA Concepts
+
+### Day 21 :- 12-Jan-2026 (Monday) [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
+- Practiced scenario-based questions based on OOPS and Core Java
+- Understood real-world problems
+
+### Day 22 :- 13-Jan-2026 (Tuesday) [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
+- Practiced More questions on scenario-based questions
+- Further understand how to build efficient solutions to real-world problems.
+
+### Day 23 :- 14-Jan-2026 (Wednesday) [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linked_list)
+
+- Practiced questions on Linkedlist
+- Implemented operations like insertion, deletion, traversal, etc.
+
+### Day 24 :- 15-Jan-2026 (Thursday) [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/hashmap_stack)
+
+- Practiced stack, queue, and hashmap questions
+- Implement stack operations (push, pop, peek)
+- Implement a queue using a stack
+- Insert, update, and delete elements in HashMap
+
+### Day 25 :- 16-Jan-2026 (Friday) [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/sorting)
+
+- Implemented sorting algorithms from scratch
+- Compared time and space complexities
+- Analyzed best, average, and worst-case scenarios
+
+### Day 26 :- 17-Jan-2026 (Saturday) [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stringbuffer_stringbuilder_linear_binarysearch)
+
+- Implemented Linear Search for unsorted and sorted arrays
+- Implemented Binary Search for sorted arrays
+- Compared performance based on input size, analyzed time, and space complexity for both algorithms
+
+## Week 6: Run-time Analysis, Generics, and scenario-based
+
+### Day 27 :- 19-Jan-2026 (Monday) [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/review/review)
+
+- Participated in a technical review session
+- Revised and discussed Runtime Analysis concepts
+- Practiced Big-O Notation–based interview question
+
+### Day 28 :- 20-Jan-2026 (Tuesday) [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based), [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/runtime_analysis_BigO)
+
+- Practiced scenario-based interview questions focused on real-world problem understanding
+- Analyzed scenarios related to Data Structures and Algorithms
+- Reviewed time and space complexity for common algorithms
+- Practiced questions to compare the performances of data structures
+
+### Day 29 :- 21-Jan-2026 (Wednesday) [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/genrics)
+
+- Implemented Java Generics to create type-safe classes and methods
+- Designed generic methods to work with multiple data types
+- Used bounded type parameters where applicable and eliminated explicit type casting using generics
+
+  
 Rishabh Shukla
+
