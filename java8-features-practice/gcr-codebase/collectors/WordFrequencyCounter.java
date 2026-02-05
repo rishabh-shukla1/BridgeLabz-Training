@@ -1,0 +1,20 @@
+package collectors;
+import java.util.*;
+import java.util.stream.Collectors;
+
+public class WordFrequencyCounter {
+	
+	
+	public static void main(String args[])
+	{
+		String paragraph = "java is fun and java is powerful";
+		
+		
+		 Map<String,Integer> ans=
+				 Arrays.stream(paragraph.split(" "))
+				 .collect(Collectors.toMap(w->w,w->1,Integer::sum));
+		 
+		 System.out.println(ans);
+	}
+
+}
