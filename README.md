@@ -73,16 +73,27 @@ BridgeLabz-Training
 |     |  +- set
 |     |  +- hashmap
 |     |  +- queue
-|     |  +- insurance_policy
+|     |  +- insurance_policy_management_system
 |     |  +- banking_system
 |     |  +- voting_system
 |     |  +- shopping_cart
 |     |  +- streams
 |     |  +- exception_handling
+|     |  +- Regex
+|     |  +- annotation
+|     |  +- reflection
+|     |  +- junit
 |     |
 |     +--leetcode-codebase (Folder)
 |     |
 |     +-- scenario-based (Folder)
+|     |
++--io-prcatice (Branch)
+|     |
+|     +- gcr-codebase (Folder)
+|     |  +- csv_data_handling
+|     |  +- json
+|     |
 +--review
 ```
 
@@ -286,8 +297,46 @@ BridgeLabz-Training
 - Focused on selecting the right collection based on real-world requirements
 - Better understanding of performance and memory trade-offs
 
+### Day 34 :- 29-Jan-2026 (Thursday) [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/lexicaltwist)
+
+- Implemented a string-based puzzle involving two input words
+- Performed conditional string transformations and analysis based on given rules
+- Ensured case-insensitive comparison and proper input validation
+
+### Day 35 :- 30-Jan-2026 (Friday) [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/blob/collections-practice/collections-practice/scenario-based/FlipKeyLogical.java)
+
+- Implemented a string transformation utility to demonstrate ASCII-based filtering and string manipulation
+- Focused on data cleansing, reversal, and positional character transformation
+- Designed to reinforce concepts related to encoding, validation, and security-style logic
+
+### Day 36 :- 1-Feb-2026 (Sunday) [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/Regex), [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/junit)
+
+- Studied and practiced Regular Expressions (Regex) for pattern matching and validation
+- Created a Maven project to implement Junit
+- Learned JUnit for writing and executing unit tests in Java applications
+
+### Day 37 :- 2-Feb-2026 (Monday) [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/future_logistics), [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based)
+
+- Designed a logistics management system to calculate transport charges for different goods
+- Implemented object-oriented principles to handle multiple transport types
+- Applied scenario-based decision making for vehicle selection and pricing
+
+### Day 38 :- 3-Feb-2026 (Tuesday) [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/annotations), [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/reflection)
+
+- Understand and implement Java Annotations and Reflection API.
+- Demonstrate how annotations can be defined and processed at runtime using reflection.
+- Highlights how metadata-driven programming can simplify complex logic and improve extensibility.
+
+### Day 39 :- 4-Feb-2026 (Wednesday) [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/io-practice/io-practice/gcr-codebase/csv_data_handling), [Click here](https://github.com/rishabh-shukla1/BridgeLabz-Training/tree/io-practice/io-practice/gcr-codebase/json)
+
+- To read, write, and process data stored in CSV (Comma-Separated Values) format.
+- To understand how structured data can be handled efficiently using Java.
+- To perform basic data validation and manipulation on CSV records.
+- To read, write, and manipulate data stored in JSON (JavaScript Object Notation) format.
+- To perform parsing and validation of JSON data using Java.
 
 ## Author
 Rishabh Shukla
+
 
 
