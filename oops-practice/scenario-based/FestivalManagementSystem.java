@@ -1,0 +1,157 @@
+package scenario_based;
+
+import java.util.*;
+
+abstract class Festival {
+
+    String name;
+    String location;
+    String date;
+
+    Festival(String name, String location, String date) {
+        this.name = name;
+        this.location = location;
+        this.date = date;
+    }
+
+    abstract void displayDetails();
+}
+
+class MusicFestival extends Festival {
+
+    String headliner;
+    String genre;
+    int ticketPrice;
+
+    MusicFestival(String name, String location, String date,
+                  String headliner, String genre, int ticketPrice) {
+
+        super(name, location, date);
+        this.headliner = headliner;
+        this.genre = genre;
+        this.ticketPrice = ticketPrice;
+    }
+
+    void displayDetails() {
+
+        System.out.println("Festival Name: " + name);
+        System.out.println("Location: " + location);
+        System.out.println("Date: " + date);
+        System.out.println("Headliner: " + headliner);
+        System.out.println("Music Genre: " + genre);
+        System.out.println("Ticket Price: " + ticketPrice);
+    }
+}
+
+class FoodFestival extends Festival {
+
+    String cuisine;
+    int numStalls;
+    int entryFee;
+
+    FoodFestival(String name, String location, String date,
+                 String cuisine, int numStalls, int entryFee) {
+
+        super(name, location, date);
+        this.cuisine = cuisine;
+        this.numStalls = numStalls;
+        this.entryFee = entryFee;
+    }
+
+    void displayDetails() {
+
+        System.out.println("Festival Name: " + name);
+        System.out.println("Location: " + location);
+        System.out.println("Date: " + date);
+        System.out.println("Cuisine: " + cuisine);
+        System.out.println("Number of Stalls: " + numStalls);
+        System.out.println("Entry Fee: " + entryFee);
+    }
+}
+
+class ArtFestival extends Festival {
+
+    String artType;
+    int numArtists;
+    int exhibitionFee;
+
+    ArtFestival(String name, String location, String date,
+                String artType, int numArtists, int exhibitionFee) {
+
+        super(name, location, date);
+        this.artType = artType;
+        this.numArtists = numArtists;
+        this.exhibitionFee = exhibitionFee;
+    }
+
+    void displayDetails() {
+
+        System.out.println("Festival Name: " + name);
+        System.out.println("Location: " + location);
+        System.out.println("Date: " + date);
+        System.out.println("Art Type: " + artType);
+        System.out.println("Number of Artists: " + numArtists);
+        System.out.println("Exhibition Fee: " + exhibitionFee);
+    }
+}
+public class FestivalManagementSystem {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        Map<String, Festival> map = new HashMap<>();
+
+        while (true) {
+
+            String line = sc.nextLine();
+
+            if (line.equals("EXIT"))
+                break;
+
+            String[] parts = line.split(" ");
+
+            if (parts[0].equals("ADD_FESTIVAL")) {
+
+                if (parts[1].equals("MUSIC")) {
+
+                    Festival f = new MusicFestival(
+                            parts[2], parts[3], parts[4],
+                            parts[5], parts[6],
+                            Integer.parseInt(parts[7]));
+
+                    map.put(parts[2], f);
+                }
+
+                else if (parts[1].equals("FOOD")) {
+
+                    Festival f = new FoodFestival(
+                            parts[2], parts[3], parts[4],
+                            parts[5],
+                            Integer.parseInt(parts[6]),
+                            Integer.parseInt(parts[7]));
+
+                    map.put(parts[2], f);
+                }
+
+                else if (parts[1].equals("ART")) {
+
+                    Festival f = new ArtFestival(
+                            parts[2], parts[3], parts[4],
+                            parts[5],
+                            Integer.parseInt(parts[6]),
+                            Integer.parseInt(parts[7]));
+
+                    map.put(parts[2], f);
+                }
+            }
+
+            else if (parts[0].equals("DISPLAY_DETAILS")) {
+
+                Festival f = map.get(parts[1]);
+
+                if (f != null)
+                    f.displayDetails();
+            }
+        }
+    }
+}
